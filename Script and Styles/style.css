@@ -34,6 +34,7 @@ nav {
     height: auto; /* Maintain aspect ratio */
     cursor: pointer;
     top: 20px;
+    position: fixed;
     z-index: 6;
 }
 
@@ -70,14 +71,17 @@ nav {
 }
 
 /* Heading Styles */
-h2, h3, h1 {
+h3, h1 {
     color: orange;
     text-align: center;
+    position: fixed;
     z-index: 6;
 }
 
-h1 {
+h2 {
+    color: #fff;
     font-size: 20px;
+    position: fixed;
     z-index: 6;
 }
 
