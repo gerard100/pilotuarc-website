@@ -120,13 +120,13 @@ h3 {
 
 /* Picture Styles */
 .pic1, .pic2 {
-    width: 100%; /* Make images responsive */
+    width: 80%; /* Make images responsive */
     height: auto;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     border: 3px #fff solid;
-    margin-top: 20px; /* Adjust for better spacing */
+    margin-top: 40px; /* Adjust for better spacing */
 }
 
 /* Responsive Media Queries */
