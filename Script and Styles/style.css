@@ -96,12 +96,12 @@ nav {
 
 /* Heading Styles */
 h1 {
-    font-size: 12px;
+    font-size: 9px;
     color: orange;
-    left: 25px;
+    left: 20px;
     position: fixed;
     z-index: 6;
-    top: 60px;
+    top: 55px;
 }
 
 h2 {
