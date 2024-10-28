@@ -95,6 +95,7 @@ nav {
 h1 {
     font-size: 16px;
     color: orange;
+    right: 15px;
     position: fixed;
     z-index: 6;
 }
