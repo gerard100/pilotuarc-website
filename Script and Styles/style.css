@@ -162,7 +162,7 @@ h1 {
 }
 
 .container {
-    width: 500px;
+    width: 400px;
     height: auto;
     margin: 50px auto;
     padding: 10px;
@@ -174,7 +174,7 @@ h1 {
     z-index: 20;
     color: #000;
     position: absolute;
-    left: 10%;
+    left: 15%;
   }
     
   h3 {
