@@ -1,139 +1,39 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: transparent;
-}
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: transparent; }
 
-/* Navigation Styles */
-nav {
-    display: flex;
-    height: 110px;
-    width: 100%; /* Use full width */
-    align-items: center;
-    justify-content: space-between;
-    background: rgb(62, 59, 59);
-    border-bottom: #fff 2px solid;
-    padding: 5px 5%;
-    position: fixed; /* Change to fixed for better responsive behavior */
-    top: 0;
-    z-index: 5;
-}
+nav { display: flex; height: 110px; width: 100%; /* Use 100% width for responsive behavior */ align-items: center; justify-content: space-between; background: rgb(62, 59, 59); border-bottom: #fff 2px solid; padding: 5px 5%; position: absolute; top: 0; z-index: 5; }
 
-/* Logo */
-.adventistlogo {
-    width: 10vw; /* Responsive size */
-    height: auto; /* Maintain aspect ratio */
-    top: 20px;
-    position: relative; 
-}
+.adventistlogo { z-index: 10; position:absolute; width: 70px; height: 70px; top: 20px; left: 30%; border-radius: 5px; }
 
-/* Icon */
-.icon {
-    width: 10vw; /* Responsive size */
-    height: auto; /* Maintain aspect ratio */
-    cursor: pointer;
-}
+.icon { z-index: 50; position: absolute; width: 40px; height: 23px; top: 40px; right: 25%; border-radius: 5px; cursor: pointer; top: 8.5vh; } .icon:hover { background: orange; /* Background color on hover */ }
 
-/* Dropdown Content */
-.dropdown-content {
-    display: none; /* Hidden by default */
-    position: absolute;
-    min-width: 160px; /* Use min-width for dropdown */
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 21;
-}
+.dropdown-content { display: none; /* Hidden by default / position: absolute; / Position the dropdown / / Background color / min-width: 160px; / Minimum width / box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); / Add shadow / z-index: 21; / Sit on top */ right: 70px; transform: translateX(-50%); animation: flow 1.0s forwards; }
 
-/* Dropdown Links */
-.dropdown-content a {
-    display: block;
-    padding: 10px; /* Reduced padding for mobile */
-    text-decoration: none;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-}
+.dropdown-content a { color: black; /* Text color / padding-top: 20px; / Padding / padding-left: 16px; text-decoration: none; / No underlines / display: block; / Make links block elements */ z-index: 22; color: #000; background-color: #f9f9f9; position: absolute; width: 160px; height: 40px; border-radius: 5px; }
 
-/* Background Styles */
-.background-image {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("photos/dorm1.jpg");
-    background-size: cover;
-    background-position: center;
-}
+.dropdown-content a:hover { color: orange; }
 
-/* Overlay */
-.background-image::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-}
+@keyframes flow { 0% { top: -100%; opacity: 0; } 100% { top: 20%; opacity: 1; } }
 
-/* Button Styles */
-.btnHome, .btn1, .btn2, .btn3, .btn4, .btn5, .btn6 {
-    width: 90%; /* Full width for buttons */
-    height: 40px;
-    top: 50px;
-    border: 2px solid rgb(62, 59, 59);
-    border-radius: 5px;
-    color: #fff; 
-    font-size: 15px;
-    cursor: pointer; 
-    margin: 5px auto; /* Center buttons */
-    display: block; /* Change to block for better layout */
-}
+.background-image { position: fixed; /* Positioning context for the overlay / top: 0%; width: 100%; / Set the width of the element / height: 100%; / Set the height of the element / background-image: url("photos/dorm1.jpg"); / Replace with your image URL / background-size: cover; / Cover the entire element / background-position: center; / Center the image / object-position: center; overflow: hidden; / Hide any overflow / } .background-image::before { content: ''; / Required for pseudo-elements / position: absolute; / Positioning the overlay / top: 0; / Align to the top / left: 0; / Align to the left / right: 0; / Align to the right / bottom: 0; / Align to the bottom / background-color: rgba(0, 0, 0, 0.4); / Black color with 50% opacity / z-index: -20; / Place the overlay above the background image */ }
 
-/* Heading Styles */
-h2, h3, h1 {
-    color: orange;
-    text-align: center;
-}
+.background-image > * { position: relative; /* Position content above the overlay / z-index: -20; / Ensure content is above the overlay */ }
 
-h1 {
-    font-size: 20px;
-}
+.btnHome, .btn1, .btn2, .btn3, .btn4, .btn5, .btn6 { display: fixed; width: 170px; height: 40px; top: 50px; left: 0%; border: 2px solid rgb(62, 59, 59); /* Border color / border-radius: 0px; color: #fff; font-size: 15px; cursor: pointer; margin: 5px; / Margin for spacing */ position: relative; white-space: nowrap; z-index: 5; gap: 0; }
 
-/* Container Style */
-.container {
-    width: 90%; /* Responsive container width */
-    margin: auto;
-    padding: 10px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    z-index: 20;
-}
+h2 { top: 5vh; left: 40%; color: #fff; font-size: 16px; z-index: 12; position:absolute; }
 
-/* Picture Styles */
-.pic1, .pic2 {
-    width: 100%; /* Make images responsive */
-    height: auto;
-    border: 3px #fff solid;
-    margin-top: 20px; /* Adjust for better spacing */
-}
+h1 { top: 6vh; right: 30%; text-align: center; color: orange; font-size: 16px; z-index: 12; position: absolute; animation: drop 0.5s forwards; }
 
-/* Responsive Media Queries */
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column; /* Stack nav items on small screens */
-    }
+@keyframes drop { 0% { top: -100%; opacity: 0; } 100% { top: 6%; opacity: 1; } }
 
-    .icon {
-        width: 12vw; /* Increased size for mobile */
-    }
+.container { width: 490px; height: auto; margin: 50px auto; padding: 10px; padding-right: 40px; background: #fff; border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-top: 21vh; z-index: 20; color: #000; position: absolute; left: 30%; }
 
-    h2, h3, p {
-        font-size: 14px; /* Reduced font size for readability */
-    }
+h3 { margin-top: 20px; color: orange; text-align: center; z-index: 16; position: absolute; padding-left: 60px; }
 
-    .btnHome, .btn1, .btn2, .btn3, .btn4, .btn5, .btn6 {
-        font-size: 12px; /* Responsive button text */
-    }
-}
+p{ padding-left: 30px; text-align: justify; margin-top: 60PX; }
+
+h3 { margin-top: 20px; color: orange; text-align: center; z-index: 16; position: absolute; padding-left: 60px; } p{ padding-left: 30px; text-align: justify; margin-top: 60PX; }
+
+.pic1 { object-fit: fit; width: 480px; height: auto; border: 3px #fff solid; margin-top: 40px; margin-left: 20px; }
+
+.pic2 { object-fit: fit; width: 480px; height: auto; border: 3px #fff solid; margin-top: 40px; margin-left: 20px; }
