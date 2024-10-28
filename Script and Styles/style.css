@@ -24,8 +24,8 @@ nav {
 .adventistlogo {
     width: 10vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
-    top: 20px;
-    position: relative; 
+    top: 16px;
+    position: fixed; 
 }
 
 /* Icon */
