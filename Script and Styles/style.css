@@ -93,7 +93,7 @@ nav {
 
 /* Heading Styles */
 h1 {
-    font-size: 14px;
+    font-size: 12px;
     color: orange;
     right: 30px;
     position: fixed;
@@ -103,7 +103,7 @@ h1 {
 
 h2 {
     color: #fff;
-    font-size: 14px;
+    font-size: 12px;
     left: 30%;
     position: fixed;
     text-align: center;
