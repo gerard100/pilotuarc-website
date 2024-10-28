@@ -133,7 +133,7 @@ nav {
 
 h2 {
     top: 5vh;
-    left: 20%;
+    left: 16%;
     color: #fff;
     font-size: 20px;
     z-index: 12;
@@ -144,7 +144,7 @@ h1 {
     top: 6vh;
     right: 15%;
     color: orange;
-    font-size: 20px;
+    font-size: 16px;
     z-index: 12;
     position: absolute;
     animation: drop 0.5s forwards;
