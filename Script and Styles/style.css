@@ -108,6 +108,7 @@ h2 {
     position: fixed;
     text-align: center;
     z-index: 6;
+    top: 20px;
 }
 
 /* Heading Styles */
