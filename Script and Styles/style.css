@@ -95,10 +95,10 @@ nav {
 h1 {
     font-size: 14px;
     color: orange;
-    right: 15px;
+    right: 30px;
     position: fixed;
     z-index: 6;
-    top: 40px;
+    top: 50px;
 }
 
 h2 {
