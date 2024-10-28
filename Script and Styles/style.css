@@ -32,7 +32,7 @@ nav {
 
 /* Icon */
 .icon {
-    width: 3vw; /* Responsive size */
+    width: 2vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
     cursor: pointer;
     top: 20px;
@@ -93,16 +93,17 @@ nav {
 
 /* Heading Styles */
 h1 {
-    font-size: 16px;
+    font-size: 14px;
     color: orange;
     right: 15px;
     position: fixed;
     z-index: 6;
+    top: 30px;
 }
 
 h2 {
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     left: 40px;
     position: fixed;
     text-align: center;
