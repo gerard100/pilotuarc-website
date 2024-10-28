@@ -49,7 +49,7 @@ nav {
 
 /* Dropdown Links */
 .dropdown-content a {
-    display: block;
+    display: list;
     padding: 10px; /* Reduced padding for mobile */
     text-decoration: none;
     background-color: #f9f9f9;
