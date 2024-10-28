@@ -19,42 +19,57 @@ nav {
     z-index: 5;
 }
 
-.adventistlogo {
-    z-index: 10;
-    position:absolute;
-    width: 70px;
-    height: 70px;
-    top: 20px;
-    left: 10%;
-    border-radius: 5px;
+/* Navigation Styles */
+nav {
+    display: flex;
+    height: 80px;
+    width: 100%; /* Use full width */
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(62, 59, 59);
+    border-bottom: #fff 2px solid;
+    padding: 5px 5%;
+    position: fixed; /* Change to fixed for better responsive behavior */
+    top: 0;
+    z-index: 5;
 }
 
-.icon {
-    z-index: 8;
-    position: absolute;
-    width: 40px;
-    height: 23px;
-    top: 40px;
-    right: 10%;
-    border-radius: 5px;
-    cursor: pointer;
-    top: 8vh;
+/* Logo */
+.adventistlogo {
+    width: 5vw; /* Responsive size */
+    height: auto; /* Maintain aspect ratio */
+    top: 16px;
+    right: 15px;
+    position: fixed; 
+    z-index: 6;
 }
+
+/* Icon */
+.icon {
+    width: 3vw; /* Responsive size */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+    top: 15px;
+    left: 15px;
+    position: fixed;
+    z-index: 6;
+}
+
 .icon:hover {
     background: orange; /* Background color on hover */
 }
 
+/* Dropdown Content */
 .dropdown-content {
     display: none; /* Hidden by default */
     position: absolute; /* Position the dropdown */
  /* Background color */
     min-width: 160px; /* Minimum width */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add shadow */
-    z-index: 4; /* Sit on top */
+    z-index: 20; /* Sit on top */
     right: 30px;
     transform: translateX(-50%);
     animation: flow 1.0s forwards;
-    flex-direction: column;
 }
 
 .dropdown-content a {
@@ -63,7 +78,7 @@ nav {
     padding-left: 16px;
     text-decoration: none; /* No underlines */
     display: block; /* Make links block elements */
-    z-index: 10;
+    z-index: 20;
     color: #000;
     background-color: #f9f9f9;
     position: absolute;
@@ -71,96 +86,43 @@ nav {
     height: 40px;
     border-radius: 5px;
 }
-
 .dropdown-content a:hover {
     color: orange;
 }
 
-@keyframes flow {
-    0% {
-        top: -100%;
-        opacity: 0;
-    }
-    100% {
-        top: 20%;
-        opacity: 1;
-    }
-}
-
-.background-image {
-    position: fixed; /* Positioning context for the overlay */
-    top: 0%;
-    width: 100%; /* Set the width of the element */
-    height: 100%; /* Set the height of the element */
-    background-image: url("C:/Users/NimeBane/Desktop/UARC WEBSITE PROJECT 2024/photos/dorm1.jpg"); /* Replace with your image URL */
-    background-size: cover; /* Cover the entire element */
-    background-position: center; /* Center the image */
-    object-position: center;
-   z-index: -20;
-}
-.background-image::before {
-    content: ''; /* Required for pseudo-elements */
-    position: absolute; /* Positioning the overlay */
-    top: 0; /* Align to the top */
-    left: 0; /* Align to the left */
-    right: 0; /* Align to the right */
-    bottom: 0; /* Align to the bottom */
-    background-color: rgba(0, 0, 0, 0.4); /* Black color with 50% opacity */
-    z-index: 1; /* Place the overlay above the background image */
-}
-
-.background-image > * {
-    position: relative; /* Position content above the overlay */
-    z-index: 2; /* Ensure content is above the overlay */
-}
-
+/* Button Styles */
 .btnHome, .btn1, .btn2, .btn3, .btn4, .btn5, .btn6 {
-    display: fixed;
-    width: 170px;
+    width: 90%; /* Full width for buttons */
     height: 40px;
-    top: 50px;
-    left: 0%;
-    border: 2px solid rgb(62, 59, 59); /* Border color */
-    border-radius: 0px;
+     top: 60px;
+     z-index: 20;
+    border: 2px solid rgb(62, 59, 59);
+    border-radius: 5px;
     color: #fff; 
     font-size: 15px;
     cursor: pointer; 
-    margin: 5px; /* Margin for spacing */
-    position: relative;
-    white-space: nowrap;
-    z-index: 5;
-    gap: 0;
+    margin: 5px auto; /* Center buttons */
+    display: block; /* Change to block for better layout */
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 9px;
+    color: orange;
+    left: 20px;
+    position: fixed;
+    z-index: 6;
+    top: 55px;
 }
 
 h2 {
-    top: 5vh;
-    left: 20%;
     color: #fff;
-    font-size: 20px;
-    z-index: 12;
-    position:absolute;
-}
-
-h1 {
-    top: 6vh;
-    right: 15%;
-    color: orange;
-    font-size: 20px;
-    z-index: 12;
-    position:absolute;
-    animation: drop 0.5s forwards;
-}
-
-
-@keyframes drop {
-    0% {
-        top: -100%;
-        opacity: 0;
-    }
-    100% {
-        top: 6%;
-        opacity: 1;
-    }
+    font-size: 12px;
+    left: 18%;
+    position: fixed;
+    text-align: center;
+    z-index: 6;
+    top: 25px;
 }
 
 
