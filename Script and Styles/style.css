@@ -6,7 +6,6 @@ body {
 }
 
 nav {
-    display: fit-content;
     height: 110px;
     width: 100%; /* Use 100% width for responsive behavior */
     align-items: center;
@@ -25,7 +24,7 @@ nav {
     width: 70px;
     height: 70px;
     top: 20px;
-    left: 35%;
+    left: 30%;
     border-radius: 5px;
 }
 
@@ -35,7 +34,7 @@ nav {
     width: 40px;
     height: 23px;
     top: 40px;
-    right: 35%;
+    right: 30%;
     border-radius: 5px;
     cursor: pointer;
     top: 8.5vh;
