@@ -106,11 +106,11 @@ h1 {
 h2 {
     color: #fff;
     font-size: 12px;
-    left: 20%;
+    left: 15%;
     position: fixed;
     text-align: center;
     z-index: 6;
-    top: 20px;
+    top: 35px;
 }
 
 /* Heading Styles */
