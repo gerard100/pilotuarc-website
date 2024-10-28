@@ -36,7 +36,7 @@ nav {
     height: auto; /* Maintain aspect ratio */
     cursor: pointer;
     top: 15px;
-    right: 30px;
+    right: 35px;
     position: fixed;
     z-index: 6;
 }
