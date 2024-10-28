@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+nav {
+    display: flex;
+    height: 110px;
+    width: 90%; /* Use 100% width for responsive behavior */
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(62, 59, 59);
+    border-bottom: #fff 2px solid;
+    padding: 5px 5%;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+
+.adventistlogo {
+    z-index: 10;
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    top: 20px;
+    left: 10%;
+    border-radius: 5px;
+}
+
+.icon {
+    z-index: 8;
+    position: absolute;
+    width: 40px;
+    height: 23px;
+    top: 40px;
+    right: 10%;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 8vh;
+}
+.icon:hover {
+    background: orange; /* Background color on hover */
+}
+
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute; /* Position the dropdown */
+ /* Background color */
+    min-width: 160px; /* Minimum width */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add shadow */
+    z-index: 4; /* Sit on top */
+    right: 30px;
+    transform: translateX(-50%);
+    animation: flow 1.0s forwards;
+}
+
+.dropdown-content a {
+    color: black; /* Text color */
+    padding-top: 20px; /* Padding */
+    padding-left: 16px;
+    text-decoration: none; /* No underlines */
+    display: block; /* Make links block elements */
+    z-index: 10;
+    color: #000;
+    background-color: #f9f9f9;
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.dropdown-content a:hover {
+    color: orange;
+}
+
+@keyframes flow {
+    0% {
+        top: -100%;
+        opacity: 0;
+    }
+    100% {
+        top: 20%;
+        opacity: 1;
+    }
+}
+
+.background-image {
+    position: fixed; /* Positioning context for the overlay */
+    top: 0%;
+    width: 100%; /* Set the width of the element */
+    height: 100%; /* Set the height of the element */
+    background-image: url("C:/Users/NimeBane/Desktop/UARC WEBSITE PROJECT 2024/photos/dorm1.jpg"); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire element */
+    background-position: center; /* Center the image */
+    object-position: center;
+    overflow: hidden; /* Hide any overflow */
+}
+.background-image::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Positioning the overlay */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+    bottom: 0; /* Align to the bottom */
+    background-color: rgba(0, 0, 0, 0.4); /* Black color with 50% opacity */
+    z-index: 1; /* Place the overlay above the background image */
+}
+
+.background-image > * {
+    position: relative; /* Position content above the overlay */
+    z-index: 2; /* Ensure content is above the overlay */
+}
+
+.btnHome, .btn1, .btn2, .btn3, .btn4, .btn5, .btn6 {
+    display: fixed;
+    width: 170px;
+    height: 40px;
+    top: 50px;
+    left: 0%;
+    border: 2px solid rgb(62, 59, 59); /* Border color */
+    border-radius: 0px;
+    color: #fff; 
+    font-size: 15px;
+    cursor: pointer; 
+    margin: 5px; /* Margin for spacing */
+    position: relative;
+    white-space: nowrap;
+    z-index: 5;
+    gap: 0;
+}
+
+h2 {
+    top: 5vh;
+    left: 20%;
+    color: #fff;
+    font-size: 20px;
+    z-index: 12;
+    position:absolute;
+}
+
+h1 {
+    top: 6vh;
+    right: 15%;
+    color: orange;
+    font-size: 20px;
+    z-index: 12;
+    position:absolute;
+    animation: drop 0.5s forwards;
+}
+
+
+@keyframes drop {
+    0% {
+        top: -100%;
+        opacity: 0;
+    }
+    100% {
+        top: 6%;
+        opacity: 1;
+    }
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    margin: 50px auto;
+    padding: 10px;
+    padding-right: 40px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0, 0.9);
+    margin-top: 21vh;
+    z-index: 20;
+    color: #000;
+    position: absolute;
+    left: 30%;
+  }
+    
+  h3 {
+    margin-top: 20px;
+    color: orange;
+      text-align: center;
+      z-index: 16;
+      position: absolute;
+      padding-left: 60px;
+  }
+  p{
+    padding-left: 30px;
+    text-align: justify;
+    margin-top: 60PX;
+  }
+    
+  .pic1 {
+    object-fit: fit;
+    width: 480px;
+    height: auto;
+    border: 3px #fff solid;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+
+
+
