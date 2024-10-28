@@ -36,7 +36,7 @@ nav {
     height: auto; /* Maintain aspect ratio */
     cursor: pointer;
     top: 15px;
-    right: 35px;
+    left: 30px;
     position: fixed;
     z-index: 6;
 }
@@ -98,7 +98,7 @@ nav {
 h1 {
     font-size: 12px;
     color: orange;
-    right: 40px;
+    left: 35px;
     position: fixed;
     z-index: 6;
     top: 60px;
