@@ -8,7 +8,7 @@ body {
 nav {
     display: flex;
     height: 110px;
-    width: 80%; /* Use 100% width for responsive behavior */
+    width: 100%; /* Use 100% width for responsive behavior */
     align-items: center;
     justify-content: space-between;
     background: rgb(62, 59, 59);
