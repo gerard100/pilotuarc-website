@@ -84,6 +84,7 @@ nav {
     width: 90%; /* Full width for buttons */
     height: 40px;
      top: 60px;
+     z-index: 20;
     border: 2px solid rgb(62, 59, 59);
     border-radius: 5px;
     color: #fff; 
