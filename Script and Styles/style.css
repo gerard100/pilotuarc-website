@@ -98,6 +98,7 @@ h1 {
 h2 {
     color: #fff;
     font-size: 16px;
+    left: 20px;
     position: fixed;
     text-align: center;
     z-index: 6;
