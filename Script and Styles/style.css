@@ -163,7 +163,7 @@ h1 {
 }
 
 .container {
-    width: 470px;
+    width: 490px;
     height: auto;
     margin: 50px auto;
     padding: 10px;
@@ -175,8 +175,7 @@ h1 {
     z-index: 20;
     color: #000;
     position: absolute;
-    left: 30%;
-    
+    left: 30%; 
   }
     
   h3 {
@@ -187,6 +186,7 @@ h1 {
       position: absolute;
       padding-left: 60px;
   }
+
   p{
     padding-left: 30px;
     text-align: justify;
