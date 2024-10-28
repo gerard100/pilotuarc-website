@@ -25,6 +25,7 @@ nav {
     width: 10vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
     top: 16px;
+    left: 5px;
     position: fixed; 
     z-index: 6;
 }
@@ -35,6 +36,7 @@ nav {
     height: auto; /* Maintain aspect ratio */
     cursor: pointer;
     top: 20px;
+    right: 5px;
     position: fixed;
     z-index: 6;
 }
