@@ -83,7 +83,7 @@ nav {
 .btnHome, .btn1, .btn2, .btn3, .btn4, .btn5, .btn6 {
     width: 90%; /* Full width for buttons */
     height: 40px;
-    top: 50px;
+     top: 60px;
     border: 2px solid rgb(62, 59, 59);
     border-radius: 5px;
     color: #fff; 
