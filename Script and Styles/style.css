@@ -162,7 +162,7 @@ h1 {
 }
 
 .container {
-    width: 500px;
+    width: fit-content;
     height: auto;
     margin: 50px auto;
     padding: 10px;
