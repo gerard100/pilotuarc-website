@@ -91,7 +91,7 @@ nav {
     top: 0%;
     width: 100%; /* Set the width of the element */
     height: 100%; /* Set the height of the element */
-    background-image: url("index.html"); /* Replace with your image URL */
+    background-image: url("photos/dorm1.jpg"); /* Replace with your image URL */
     background-size: cover; /* Cover the entire element */
     background-position: center; /* Center the image */
     object-position: center;
