@@ -151,6 +151,8 @@ h3 {
 
     h2, h3, p {
         font-size: 14px; /* Reduced font size for readability */
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .btnHome, .btn1, .btn2, .btn3, .btn4, .btn5, .btn6 {
