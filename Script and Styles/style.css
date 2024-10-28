@@ -22,7 +22,7 @@ nav {
 
 /* Logo */
 .adventistlogo {
-    width: 10vw; /* Responsive size */
+    width: 6vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
     top: 16px;
     left: 5px;
@@ -32,7 +32,7 @@ nav {
 
 /* Icon */
 .icon {
-    width: 10vw; /* Responsive size */
+    width: 6vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
     cursor: pointer;
     top: 20px;
@@ -120,7 +120,7 @@ h3 {
 
 /* Picture Styles */
 .pic1, .pic2 {
-    width: 80%; /* Make images responsive */
+    width: 100%; /* Make images responsive */
     height: auto;
     padding-left: 10px;
     padding-right: 10px;
