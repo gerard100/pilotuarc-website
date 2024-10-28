@@ -25,7 +25,7 @@ nav {
     width: 5vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
     top: 16px;
-    right: 10%;
+    right: 15px;
     position: fixed; 
     z-index: 6;
 }
