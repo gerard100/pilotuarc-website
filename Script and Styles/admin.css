@@ -20,23 +20,38 @@ nav {
     z-index: 5;
 }
 
+/* Navigation Styles */
+nav {
+    display: flex;
+    height: 80px;
+    width: 100%; /* Use full width */
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(62, 59, 59);
+    border-bottom: #fff 2px solid;
+    padding: 5px 5%;
+    position: fixed; /* Change to fixed for better responsive behavior */
+    top: 0;
+    z-index: 5;
+}
+
 /* Logo */
 .adventistlogo {
-    width: 6vw; /* Responsive size */
+    width: 5vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
     top: 16px;
-    left: 10px;
+    right: 15px;
     position: fixed; 
     z-index: 6;
 }
 
 /* Icon */
 .icon {
-    width: 2vw; /* Responsive size */
+    width: 3vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
     cursor: pointer;
-    top: 20px;
-    right: 10px;
+    top: 15px;
+    left: 15px;
     position: fixed;
     z-index: 6;
 }
@@ -52,7 +67,7 @@ nav {
  /* Background color */
     min-width: 160px; /* Minimum width */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add shadow */
-    z-index: 7; /* Sit on top */
+    z-index: 20; /* Sit on top */
     right: 30px;
     transform: translateX(-50%);
     animation: flow 1.0s forwards;
@@ -64,7 +79,7 @@ nav {
     padding-left: 16px;
     text-decoration: none; /* No underlines */
     display: block; /* Make links block elements */
-    z-index: 10;
+    z-index: 20;
     color: #000;
     background-color: #f9f9f9;
     position: absolute;
@@ -72,7 +87,6 @@ nav {
     height: 40px;
     border-radius: 5px;
 }
-
 .dropdown-content a:hover {
     color: orange;
 }
@@ -81,7 +95,8 @@ nav {
 .btnHome, .btn1, .btn2, .btn3, .btn4, .btn5, .btn6 {
     width: 90%; /* Full width for buttons */
     height: 40px;
-    top: 50px;
+     top: 60px;
+     z-index: 20;
     border: 2px solid rgb(62, 59, 59);
     border-radius: 5px;
     color: #fff; 
@@ -93,21 +108,22 @@ nav {
 
 /* Heading Styles */
 h1 {
-    font-size: 14px;
+    font-size: 9px;
     color: orange;
-    right: 15px;
+    left: 20px;
     position: fixed;
     z-index: 6;
-    top: 30px;
+    top: 55px;
 }
 
 h2 {
     color: #fff;
-    font-size: 14px;
-    left: 40px;
+    font-size: 12px;
+    left: 18%;
     position: fixed;
     text-align: center;
     z-index: 6;
+    top: 25px;
 }
 
 /* Heading Styles */
