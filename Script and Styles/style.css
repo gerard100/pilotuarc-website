@@ -133,11 +133,7 @@ h3 {
 
 /* Picture Styles */
 .pic1, .pic2 {
-    width: 95%; /* Make images responsive */
-    height: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
+flex-direction: column;
     border: 3px #fff solid;
     margin-top: 60px; /* Adjust for better spacing */
 }
