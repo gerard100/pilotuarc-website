@@ -182,7 +182,7 @@ h3 {
         font-size: 14px; /* Reduced font size for readability */
         margin-left: 10%;
         margin-right: 10%;
-        margin-top: 150px;
+        top: 150px;
         text-align: justify;
     }
 
