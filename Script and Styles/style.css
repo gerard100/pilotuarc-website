@@ -154,8 +154,8 @@ h3 {
 
     p {
         font-size: 14px; /* Reduced font size for readability */
-        padding-right: 50px;
-        padding-left: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
         text-align: justify;
     }
 
