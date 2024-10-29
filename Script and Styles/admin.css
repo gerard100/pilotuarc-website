@@ -181,8 +181,8 @@ h3 {
 
     p {
         font-size: 14px; /* Reduced font size for readability */
-        margin-left: 50%;
-        padding-right: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
         margin-top: 150px;
         text-align: justify;
     }
