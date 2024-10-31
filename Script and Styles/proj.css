@@ -73,6 +73,7 @@ nav {
     height: 40px;
     border-radius: 5px;
 }
+
 .dropdown-content a:hover {
     color: orange;
 }
