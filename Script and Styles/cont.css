@@ -1,8 +1,8 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: transparent;
 }
 
 /* Navigation Styles */
@@ -19,6 +19,7 @@ nav {
     top: 0;
     z-index: 5;
 }
+
 /* Logo */
 .adventistlogo {
     width: 5vw; /* Responsive size */
