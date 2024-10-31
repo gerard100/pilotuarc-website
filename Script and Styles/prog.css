@@ -141,15 +141,16 @@ h2 {
     margin-top: 60PX;
   }
     
-  .pic1 {
-    object-fit: fit;
-    width: 480px;
+/* Picture Styles */
+.pic1 {
+    width: 95%; /* Make images responsive */
     height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
     border: 3px #fff solid;
-    border-radius: 5px;
-    margin-top: 40px;
-    margin-left: 20px;
-  }
+    margin-top: 60px; /* Adjust for better spacing */
+}
 
 
 
