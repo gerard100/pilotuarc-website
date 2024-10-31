@@ -96,7 +96,7 @@ nav {
 h1 {
     font-size: 9px;
     color: orange;
-    left: 18px;
+    left: 20px;
     position: fixed;
     z-index: 6;
     top: 55px;
@@ -105,7 +105,7 @@ h1 {
 h2 {
     color: #fff;
     font-size: 9px;
-    left: 35%;
+    left: 18%;
     position: fixed;
     text-align: center;
     z-index: 6;
