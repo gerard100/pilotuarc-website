@@ -5,21 +5,6 @@ body {
     padding: 0;
 }
 
-/* Navigation Styles */
-nav {
-    display: flex;
-    height: 80px;
-    width: 100%; /* Use full width */
-    align-items: center;
-    justify-content: space-between;
-    background: rgb(62, 59, 59);
-    border-bottom: #fff 2px solid;
-    padding: 5px 5%;
-    position: fixed; /* Change to fixed for better responsive behavior */
-    top: 0;
-    z-index: 5;
-}
-
 /* Logo */
 .adventistlogo {
     width: 5vw; /* Responsive size */
@@ -27,6 +12,17 @@ nav {
     top: 16px;
     right: 15px;
     position: fixed; 
+    z-index: 6;
+}
+
+/* Icon */
+.icon {
+    width: 3vw; /* Responsive size */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+    top: 15px;
+    left: 15px;
+    position: fixed;
     z-index: 6;
 }
 
