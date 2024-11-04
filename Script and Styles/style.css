@@ -184,7 +184,7 @@ h3 {
   color: #000;
 }
 
-.conTName1 {
+.conTName {
   right: 30px;
   margin-top: 140px;
   border: transparent;
@@ -197,7 +197,7 @@ h3 {
   text-decoration: underline;
 }
 
-.conTName1:hover {
+.conTName:hover {
   color: orange;
 }
 
