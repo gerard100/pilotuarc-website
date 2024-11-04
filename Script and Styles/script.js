@@ -61,27 +61,29 @@ function toggleDropdown() {
     }
 
 
-        const form = document.querySelector('form');
-        form.addEventListener('submit', function(event) {
-            event.preventDefault();
-            const formData = new FormData(form);
+    function toggleDropdown() {
+    document.getElementById("message").classList.toggle("show");
+}
 
-            fetch(form.action, {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    'Accept': 'application/json'
+    // Function to toggle the dropdown menu
+    function toggleDropdown() {
+        var dropdown = document.getElementById("message");
+        if (dropdown.style.display === "block") {
+            dropdown.style.display = "none"; // Hide the menu
+        } else {
+            dropdown.style.display = "block"; // Show the menu
+        }
+    }
+
+    // Optional: Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('#dropdownMessage')) {
+            var dropdowns = document.getElementsByClassName("dropdown-message");
+            for (var i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.style.display === "block") {
+                    openDropdown.style.display = "none";
                 }
-            })
-            .then(response => {
-                if (response.ok) {
-                    alert('Thank you for your submission!');
-                    form.reset();
-                } else {
-                    alert('Oops! There was a problem submitting your form.');
-                }
-            })
-            .catch(error => {
-                alert('Oops! There was a problem submitting your form.');
-            });
-        });
+            }
+        }
+    }
