@@ -61,44 +61,27 @@ function toggleDropdown() {
     }
 
 
-const dialog = document.getElementById('dialog');
-const openDialogButton = document.getElementById("openDialog");
-const closeDialogButton = document.getElementById('closeDialog');
+        const form = document.querySelector('form');
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const formData = new FormData(form);
 
-openDialogButton.addEventListener('click', () => {
-    dialog.showModal();
-});
-closeDialogButton.addEventListener('click', () => {
-    dialog.close();
-});
-
-function toggleDropdown() {
-    document.getElementById("dropdownMenu").classList.toggle("show");
-}
-
-    // Function to toggle the dropdown menu
-    function toggleDropdown() {
-        var dropdown = document.getElementById("dropdownMenu");
-        if (dropdown.style.display === "block") {
-            dropdown.style.display = "none"; // Hide the menu
-        } else {
-            dropdown.style.display = "block"; // Show the menu
-        }
-    }
-
-    // Optional: Close the dropdown if the user clicks outside of it
-    window.onclick = function(event) {
-        if (!event.target.matches('#dropdownBtn')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            for (var i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.style.display === "block") {
-                    openDropdown.style.display = "none";
+            fetch(form.action, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
                 }
-            }
-        }
-    }
-
-
-
-
+            })
+            .then(response => {
+                if (response.ok) {
+                    alert('Thank you for your submission!');
+                    form.reset();
+                } else {
+                    alert('Oops! There was a problem submitting your form.');
+                }
+            })
+            .catch(error => {
+                alert('Oops! There was a problem submitting your form.');
+            });
+        });
