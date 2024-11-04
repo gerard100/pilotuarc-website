@@ -48,10 +48,14 @@ nav {
 .email {
     width: 9vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
-    top: 600px;
-    right: 30px;
+    top: 500px;
+    right: 50px;
+    border-radius: 50%;
     position: fixed; 
     z-index: 6;
+}
+.email:hover {
+    background-color: rgb(62, 59, 59);
 }
 
 /* Dropdown Content */
