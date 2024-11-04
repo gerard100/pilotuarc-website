@@ -189,8 +189,8 @@ h3 {
     top: 300px;
 }
 
-  input, select {
-      width: 80%;
+  input {
+      width: 60%;
       margin-bottom: 20px;
       padding: 10px;
       border: 1px solid orange;
