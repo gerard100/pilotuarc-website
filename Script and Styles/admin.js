@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const adminDiv = document.getElementById("adminPage");
     const homeButton = document.getElementById("showHome");
-    const infraButton = document.getElementById("showCont");
     const progButton = document.getElementById("showProg");
     const projButton = document.getElementById("showProj");
     const appButton = document.getElementById("showApp");
@@ -15,12 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
             adminDiv.style.display = "none";
             window.location.href = 'index.html';
             });
-
-            // Admin to Home & Display Home        
-            infraButton.addEventListener("click", () => {
-                adminDiv.style.display = "none";
-                window.location.href = 'cont.html';
-                });
 
             // Admin to Home & Display Home        
             progButton.addEventListener("click", () => {
