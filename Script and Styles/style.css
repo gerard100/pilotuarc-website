@@ -51,6 +51,7 @@ nav {
     top: 500px;
     right: 50px;
     border-radius: 50%;
+    cursor: pointer;
     position: fixed; 
     z-index: 6;
 }
