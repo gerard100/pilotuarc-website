@@ -25,22 +25,21 @@ nav {
     width: 5vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
     top: 16px;
-    right: 15px;
+    left: 15px;
     position: fixed; 
     z-index: 6;
 }
 
 /* Icon */
 .icon {
-    width: 3vw; /* Responsive size */
+    width: 6vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
     cursor: pointer;
     top: 15px;
-    left: 15px;
+    right: 15px;
     position: fixed;
     z-index: 6;
 }
-
 .icon:hover {
     background: orange; /* Background color on hover */
 }
