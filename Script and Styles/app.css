@@ -191,6 +191,10 @@ form{
       border-radius: 3px;
   }
 
+.send {
+    border-radius: 5px;
+}
+
   .send:hover {
     background-color: orange;
   }
