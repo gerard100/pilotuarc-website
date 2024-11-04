@@ -187,13 +187,13 @@ h3 {
     transform: translateX(-50%);
     animation: flow 1.0s forwards;
     top: 300px;
+     padding-top: 40px;
     border-radius: 5px;
 }
 
   input {
       width: 60%;
       margin-bottom: 20px;
-      padding-top: 30px;
       padding: 20px;
       border: 1px solid orange;
       border-radius: 3px;
