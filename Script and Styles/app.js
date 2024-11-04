@@ -7,36 +7,29 @@ document.addEventListener("DOMContentLoaded", () => {
     const appDiv = document.getElementById("appPage");
     const homeButton = document.getElementById("showHome");
     const adminButton = document.getElementById("showAdmin");
-    const infraButton = document.getElementById("showCont");
     const progButton = document.getElementById("showProg");
     const projButton = document.getElementById("showProj");
     
 
-            // Admin to Home & Display Home        
+            // App to Home & Display Home        
             homeButton.addEventListener("click", () => {
             appDiv.style.display = "none";
             window.location.href = 'index.html';
             });
 
-            // Admin to Home & Display Home        
+            // App to Admin & Display Admin        
             adminButton.addEventListener("click", () => {
                 appDiv.style.display = "none";
                 window.location.href = 'admin.html';
                 });
 
-            // Admin to Home & Display Home        
-            infraButton.addEventListener("click", () => {
-                appDiv.style.display = "none";
-                window.location.href = 'cont.html';
-                });
-
-            // Admin to Home & Display Home        
+            // App to Program & Display Program        
             progButton.addEventListener("click", () => {
                 appDiv.style.display = "none";
                 window.location.href = 'prog.html';
                 });
 
-            // Admin to Home & Display Home        
+            // App to Project & Display Project      
             projButton.addEventListener("click", () => {
                 appDiv.style.display = "none";
                 window.location.href = 'proj.html';
