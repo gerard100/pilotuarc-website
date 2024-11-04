@@ -61,12 +61,12 @@ function toggleDropdown() {
     }
 
 
-    function toggleDropdown() {
+    function togglemail() {
     document.getElementById("mail").classList.toggle("show");
 }
 
     // Function to toggle the dropdown menu
-    function toggleDropdown() {
+    function togglemail() {
         var dropdown = document.getElementById("mail");
         if (dropdown.style.display === "block") {
             dropdown.style.display = "none"; // Hide the menu
