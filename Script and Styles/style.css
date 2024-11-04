@@ -189,4 +189,13 @@ h3 {
     top: 300px;
 }
 
+  input, select {
+      width: 80%;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid orange;
+      border-radius: 3px;
+  }
+
+
 
