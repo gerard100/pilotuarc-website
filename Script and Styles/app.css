@@ -134,6 +134,7 @@ form{
 
 /* Container Style */
 .container {
+    margin-top: 200px;
     width: 90%; /* Responsive container width */
     margin: auto;
     padding: 10px;
