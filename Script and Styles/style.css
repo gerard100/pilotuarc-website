@@ -187,6 +187,7 @@ h3 {
     transform: translateX(-50%);
     animation: flow 1.0s forwards;
     top: 300px;
+    border-radius: 5px;
 }
 
   input {
