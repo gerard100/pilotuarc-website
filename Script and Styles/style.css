@@ -175,7 +175,7 @@ h3 {
     }
 }
 
-.dialog {
+form {
   display: none;
   position: fixed;
   top: 60%;
@@ -189,7 +189,7 @@ h3 {
   z-index: 50;
   
 }
-.dialog input, .dialog textarea {
+form input, .dialog textarea {
   display: block;
   width: 100%;
   margin-bottom: 10px;
