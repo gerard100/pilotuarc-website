@@ -175,32 +175,6 @@ h3 {
     }
 }
 
-.contacT {
-  margin-top: 15px;
-  right: 80px;
-  z-index: 50;
-  position: fixed;
-  font-size: 16px;
-  color: #000;
-}
-
-.conTName {
-  right: 30px;
-  margin-top: 140px;
-  border: transparent;
-  background-color: transparent;
-  position: fixed;
-  color: #000;
-  font-size: 14px;
-  z-index: 50;
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.conTName:hover {
-  color: orange;
-}
-
 .dialog {
   display: none;
   position: fixed;
