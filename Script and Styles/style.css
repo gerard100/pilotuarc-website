@@ -44,6 +44,16 @@ nav {
     background: orange; /* Background color on hover */
 }
 
+/* message buttom */
+.email {
+    width: 9vw; /* Responsive size */
+    height: auto; /* Maintain aspect ratio */
+    top: 600px;
+    right: 30px;
+    position: fixed; 
+    z-index: 6;
+}
+
 /* Dropdown Content */
 .dropdown-content {
     display: none; /* Hidden by default */
