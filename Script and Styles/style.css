@@ -179,14 +179,14 @@ h3 {
 .message {
     display: none; /* Hidden by default */
     position: absolute; /* Position the dropdown */
- /* Background color */
+    Background-color: #fff;
     min-width: 160px; /* Minimum width */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add shadow */
     z-index: 40; /* Sit on top */
-    left: 100px;
+    right: 100px;
     transform: translateX(-50%);
     animation: flow 1.0s forwards;
-    top: 150px;
+    top: 300px;
 }
 
 
