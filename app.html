@@ -29,54 +29,48 @@
         
 <div class="container">
   
-    <form action=https://formspree.io/f/xanyezoj method="POST">
-         <h3>2025 Residential Application Form</h3>
-        
-        <label for="firstName">First Name:</label>
-        <input type="text" id="firstName" required>
-    
-        <label for="lastName">Last Name:</label>
-        <input type="text" id="lastName" required>
+    <form action="https://formspree.io/f/xanyezoj" method="POST">
+    <h3>2025 Residential Application Form</h3>
 
-        <label for="passion">Passion</label>
-        <input type="text" id="passion" placeholder="Enter a special skill that you posses."  required>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required>
 
-        <label for="denomintion">Denomination:</label>
-        <input type="text" id="denomination" required>
-    
-        <label for="Course">Course:</label>
-        <select id="position">
-            <option>Choose your course</option>
-            <option value="Engineer">Computer Science</option>
-            <option value="Teacher"><br>Architecture</option>
-            <option value="Doctor">Civil Engineering</option>
-            <option value="Account">Economist</option>
-            <option value="Software">Communication Development Studies</option>
-            <option value="Student">Mining Engineering</option>
-            <option value="Enterprenur">Applied Chemistry</option>
-            <option value="Lawyer">Accounting</option>
-            <option value="Lecturer">Surveying</option>
-            <option value="Driver">Electrical Engineering</option>
-            <option value="Self-Employed">Business IT</option>
-            <!-- Add more positions as needed -->
-        </select>
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required>
 
-        <label for="level">Level:</label>
-        <select id="level">
-            <option>Course level</option>
-            <option value="first">Year-1</option>
-            <option value="second">Year-2</option>
-            <option value="third">Year-3</option>
-            <option value="fourth">Year-4</option>
-            <!-- Add more positions as needed -->
-        </select>
-    
-        <!--<label>Valid Student ID:</label>-->
-        <!--<input type="file" name="image" accept="image/*" required>-->
-        
-        <input class="send" type="submit" value="Submit">
-      
-    </form>
+    <label for="passion">Passion</label>
+    <input type="text" id="passion" name="passion" placeholder="Enter a special skill that you posses." required>
+
+    <label for="denomination">Denomination:</label>
+    <input type="text" id="denomination" name="denomination" required>
+
+    <label for="position">Course:</label>
+    <select id="position" name="position" required>
+        <option>Choose your course</option>
+        <option value="Engineer">Computer Science</option>
+        <option value="Teacher">Architecture</option>
+        <option value="Doctor">Civil Engineering</option>
+        <option value="Account">Economist</option>
+        <option value="Software">Communication Development Studies</option>
+        <option value="Student">Mining Engineering</option>
+        <option value="Entrepreneur">Applied Chemistry</option>
+        <option value="Lawyer">Accounting</option>
+        <option value="Lecturer">Surveying</option>
+        <option value="Driver">Electrical Engineering</option>
+        <option value="Self-Employed">Business IT</option>
+    </select>
+
+    <label for="level">Level:</label>
+    <select id="level" name="level" required>
+        <option>Course level</option>
+        <option value="first">Year-1</option>
+        <option value="second">Year-2</option>
+        <option value="third">Year-3</option>
+        <option value="fourth">Year-4</option>
+    </select>
+
+    <input class="send" type="submit" value="Submit">
+</form>
   </div>
     <script src="Script and Styles/app.js"></script>
 </body>
