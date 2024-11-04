@@ -44,6 +44,22 @@ nav {
     background: orange; /* Background color on hover */
 }
 
+/* message buttom */
+.email {
+    width: 12vw; /* Responsive size */
+    height: auto; /* Maintain aspect ratio */
+    top: 550px;
+    left: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed; 
+    z-index: 6;
+}
+.email:hover {
+    background-color: rgb(62, 59, 59);
+}
+
+
 /* Dropdown Content */
 .dropdown-content {
     display: none; /* Hidden by default */
