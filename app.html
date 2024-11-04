@@ -9,15 +9,51 @@
 <body>
     <h1>Contact Us</h1>
     <form action=https://formspree.io/f/xanyezoj method="POST">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required>
+    
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <label for="passion">Passion</label>
+        <input type="text" id="passion" placeholder="Enter a special skill that you posses."  required>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" required></textarea><br><br>
+        <label for="denomintion">Denomination:</label>
+        <input type="text" id="denomination" required>
+    
+        <label for="Course">Course:</label>
+        <select id="position">
+            <option>Choose your course</option>
+            <option value="Engineer">Computer Science</option>
+            <option value="Teacher"><br>Architecture</option>
+            <option value="Doctor">Civil Engineering</option>
+            <option value="Account">Economist</option>
+            <option value="Software">Communication Development Studies</option>
+            <option value="Student">Mining Engineering</option>
+            <option value="Enterprenur">Applied Chemistry</option>
+            <option value="Lawyer">Accounting</option>
+            <option value="Lecturer">Surveying</option>
+            <option value="Driver">Electrical Engineering</option>
+            <option value="Self-Employed">Business IT</option>
+            <!-- Add more positions as needed -->
+        </select>
 
+        <label for="level">Level:</label>
+        <select id="level">
+            <option>Course level</option>
+            <option value="first">Year-1</option>
+            <option value="second">Year-2</option>
+            <option value="third">Year-3</option>
+            <option value="fourth">Year-4</option>
+            <!-- Add more positions as needed -->
+        </select>
+    
+        <label for="profilePicture">Valid Student ID:</label>
+        <input type="file" id="profilePicture" accept="image/*" required>
+    
+        <label for="coverPhoto">Passport size photo:</label>
+        <input type="file" id="coverPhoto" accept="image/*" required>
+        
         <input type="submit" value="Send">
     </form>
     <script src="Script and Styles/app.js"></script>
