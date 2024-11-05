@@ -52,12 +52,13 @@ nav {
     top: 16px;
     right: 50%;
     border-radius: 50%;
+    border-color: orange 2px solid;
     cursor: pointer;
     position: fixed; 
     z-index: 6;
 }
 .email:hover {
-    border: orange 2px solid;
+    background-color: #fff;
 }
 
 /* Dropdown Content */
