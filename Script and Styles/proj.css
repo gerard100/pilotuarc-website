@@ -118,15 +118,17 @@ h1 {
     top: 55px;
 }
 
-h2 {
-    color: #fff;
-    font-size: 9px;
-    left: 18%;
-    position: fixed;
+
+h{
+    color: orange;
+    font-size: 1.5rem;
     text-align: center;
+    margin: 5px 0;
+    position: fixed;
     z-index: 6;
-    top: 25px;
+    top: 15px;
 }
+
 
     
   h3 {
