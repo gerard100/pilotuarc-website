@@ -160,7 +160,7 @@ h2 {
 
 /* Container Style */
 .container {
-    width: 90%; /* Responsive container width */
+    width: 100%; /* Responsive container width */
     margin: auto;
     padding: 10px;
     background: #fff;
