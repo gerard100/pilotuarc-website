@@ -180,7 +180,7 @@ h3 {
     display: none; /* Hidden by default */
     position: fixed; /* Position the dropdown */
     Background-color: #fff;
-    min-width: 160px; /* Minimum width */
+    width: 200px; /* Minimum width */
     box-shadow: 4px 8px 16px 4px rgba(0,0,0,0.2); /* Add shadow */
     left: 210px;
     transform: translateX(-50%);
