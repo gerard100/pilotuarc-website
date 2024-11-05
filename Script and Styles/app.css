@@ -31,16 +31,18 @@ nav {
     z-index: 6;
 }
 
-/* Icon */
+/* This is the menu option icon */
 .icon {
-    width: 6vw; /* Responsive size */
+    width: 12vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
+    top: 600px;
+    left: 50px;
+    border-radius: 50%;
     cursor: pointer;
-    top: 15px;
-    right: 15px;
-    position: fixed;
+    position: fixed; 
     z-index: 6;
 }
+
 .icon:hover {
     background: orange; /* Background color on hover */
 }
