@@ -106,17 +106,7 @@ nav {
     display: block; /* Change to block for better layout */
 }
 
-/* Heading Styles */
 h1 {
-    font-size: 9px;
-    color: orange;
-    left: 20px;
-    position: fixed;
-    z-index: 6;
-    top: 55px;
-}
-
-h2 {
     color: orange;
     font-size: 1.5rem;
     text-align: center;
@@ -127,7 +117,7 @@ h2 {
 }
 
 /* Heading Styles */
-h3 {
+h2 {
     color: orange;
     font-size: 12px;
     text-align: center;
