@@ -182,13 +182,14 @@ h3 {
     Background-color: #fff;
     min-width: 140px; /* Minimum width */
     box-shadow: 4px 8px 16px 4px rgba(0,0,0,0.2); /* Add shadow */
-    left: 350px;
+    left: 300px;
     transform: translateX(-50%);
     animation: flow 1.0s forwards;
     top: 180px;
     z-index: 50;
      padding-top: 40px;
-     padding-top: 20px;
+    padding-left: 20px;
+     padding-bottom: 20px;
     border-radius: 5px;
 }
 
