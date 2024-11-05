@@ -33,7 +33,7 @@ nav {
 
 /* This is the menu option icon */
 .icon {
-    width: 6vw; /* Responsive size */
+    width: 5vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
     top: 20px;
     right: 15%;
@@ -48,7 +48,7 @@ nav {
 
 /* message buttom */
 .email {
-    width: 6vw; /* Responsive size */
+    width: 5vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
     top: 20px;
     right: 50%;
