@@ -154,8 +154,8 @@ h3 {
   .uarcManager {
     border-radius: 50%;
     border: 2px orange solid;
-    width: 130px;
-    height: 150px;
+    width: 110px;
+    height: 130px;
     margin-top: 10px;
     position: absolute;
     z-index: 3;
