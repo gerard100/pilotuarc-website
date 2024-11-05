@@ -202,5 +202,14 @@ h3 {
        z-index: 50;
   }
 
+.send {
+    border-radius: 5px;
+}
+
+  .send:hover {
+    background-color: orange;
+  }
+
+
 
 
