@@ -69,6 +69,34 @@ function toggleDropdown() {
         }
     }
 
+ function togglemail() {
+    document.getElementById("mail").classList.toggle("show");
+}
+
+    // Function to toggle the dropdown menu
+    function togglemail() {
+        var dropdown = document.getElementById("mail");
+        if (dropdown.style.display === "block") {
+            dropdown.style.display = "none"; // Hide the menu
+        } else {
+            dropdown.style.display = "block"; // Show the menu
+        }
+    }
+
+    // Optional: Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('#dropdownEmail')) {
+            var dropdowns = document.getElementsByClassName("dropdown-message");
+            for (var i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.style.display === "block") {
+                    openDropdown.style.display = "none";
+                }
+            }
+        }
+    }
+
+
 const form = document.querySelector('form');
         form.addEventListener('submit', function(event) {
             event.preventDefault();
