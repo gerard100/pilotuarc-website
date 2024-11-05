@@ -24,18 +24,18 @@ nav {
 .adventistlogo {
     width: 5vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
-    top: 16px;
-    left: 15px;
+    top: 20px;
+    left: 15%;
     position: fixed; 
     z-index: 6;
 }
 
 /* This is the menu option icon */
 .icon {
-    width: 12vw; /* Responsive size */
+    width: 6vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
-    top: 600px;
-    left: 50px;
+    top: 20px;
+    right: 15%;
     border-radius: 50%;
     cursor: pointer;
     position: fixed; 
@@ -47,17 +47,18 @@ nav {
 
 /* message buttom */
 .email {
-    width: 12vw; /* Responsive size */
+    width: 6vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
-    top: 550px;
-    left: 50px;
+    top: 20px;
+    right: 50%;
     border-radius: 50%;
+    border-color: orange 2px solid;
     cursor: pointer;
     position: fixed; 
     z-index: 6;
 }
 .email:hover {
-    background-color: rgb(62, 59, 59);
+    background-color: #fff;
 }
 
 /* Dropdown Content */
