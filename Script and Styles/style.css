@@ -3,89 +3,72 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Include border and padding in width/height calculations */
+}
+
+/* Universal Styles */
+* {
+    box-sizing: inherit; /* Apply the box-sizing to all elements */
 }
 
 /* Navigation Styles */
 nav {
     display: flex;
     height: 80px;
-    width: 100%; /* Use full width */
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     background: rgb(62, 59, 59);
     border-bottom: #fff 2px solid;
     padding: 5px 5%;
-    position: fixed; /* Change to fixed for better responsive behavior */
+    position: fixed;
     top: 0;
     z-index: 5;
 }
 
 /* Logo */
 .adventistlogo {
-    width: 5vw; /* Responsive size */
-    height: auto; /* Maintain aspect ratio */
-    top: 16px;
-    left: 15px;
-    position: fixed; 
-    z-index: 6;
+    width: 15%; /* Adjusted for better visibility across devices */
+    max-width: 100px; /* Limit max width for larger screens */
+    height: auto;
 }
 
 /* Icon */
 .icon {
-    width: 6vw; /* Responsive size */
-    height: auto; /* Maintain aspect ratio */
+    width: 6vw;
+    height: auto;
     cursor: pointer;
-    top: 15px;
-    right: 15px;
-    position: fixed;
-    z-index: 6;
 }
 .icon:hover {
-    background: orange; /* Background color on hover */
+    background: orange;
 }
 
-/* message buttom */
+/* Message Button */
 .email {
-    width: 12vw; /* Responsive size */
-    height: auto; /* Maintain aspect ratio */
-    top: 550px;
-    left: 50px;
+    width: 12vw;
+    max-width: 50px; /* Limit max width for larger screens */
+    height: auto;
     border-radius: 50%;
     cursor: pointer;
-    position: fixed; 
-    z-index: 6;
-}
-.email:hover {
-    background-color: rgb(62, 59, 59);
 }
 
 /* Dropdown Content */
 .dropdown-content {
     display: none; /* Hidden by default */
-    position: fixed; /* Position the dropdown */
- /* Background color */
-    min-width: 160px; /* Minimum width */
-    box-shadow: 4px 8px 16px 4px rgba(0,0,0,0.2); /* Add shadow */
-    z-index: 40; /* Sit on top */
-    left: 100px;
-    transform: translateX(-50%);
-    animation: flow 1.0s forwards;
-    top: 150px;
+    position: absolute; /* Changed to absolute for better placement */
+    background-color: #f9f9f9; /* Adjusted for better visibility */
+    min-width: 160px;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 40;
 }
 
 .dropdown-content a {
-    color: black; /* Text color */
-    padding-top: 20px; /* Padding */
-    padding-left: 16px;
-    text-decoration: none; /* No underlines */
-    display: block; /* Make links block elements */
-    z-index: 20;
-    color: #000;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
     background-color: #f9f9f9;
-    position: fixed;
-    width: 160px;
-    height: 40px;
-    border-radius: 5px;
+    border-bottom: 1px solid #ccc; /* Added border for separation */
 }
 .dropdown-content a:hover {
     color: orange;
@@ -93,124 +76,103 @@ nav {
 
 /* Button Styles */
 .btnHome, .btn1, .btn2, .btn3, .btn4, .btn5, .btn6 {
-    width: 90%; /* Full width for buttons */
+    width: 90%;
+    max-width: 300px; /* Limit max width for buttons */
     height: 40px;
-     top: 60px;
-     z-index: 20;
     border: 2px solid rgb(62, 59, 59);
     border-radius: 5px;
-    color: #fff; 
-    font-size: 15px;
-    cursor: pointer; 
-    margin: 5px auto; /* Center buttons */
-    display: block; /* Change to block for better layout */
+    color: #fff;
+    font-size: 1rem; /* Responsive font size */
+    background-color: rgb(62, 59, 59); /* Add background to buttons */
+    cursor: pointer;
+    margin: 5px auto;
 }
 
 /* Heading Styles */
-h1 {
-    font-size: 9px;
+h1, h2, h3 {
     color: orange;
-    left: 20px;
-    position: fixed;
-    z-index: 6;
-    top: 55px;
+    text-align: center;
+    margin: 5px 0; /* Add margin for spacing */
+}
+
+h1 {
+    font-size: 2rem; /* Adjusted for responsiveness */
 }
 
 h2 {
-    color: orange;
-    font-size: 9px;
-    left: 18%;
-    position: fixed;
-    text-align: center;
-    z-index: 6;
-    top: 25px;
+    font-size: 1.5rem; /* Smaller for responsiveness */
 }
 
-/* Heading Styles */
 h3 {
-    color: orange;
-    font-size: 12px;
-    text-align: center;
-    position: relative;
-    z-index: 2;
+    font-size: 1.2rem; /* Even smaller for responsiveness */
 }
 
 /* Container Style */
 .container {
-    width: 90%; /* Responsive container width */
+    width: 90%;
+    max-width: 1200px; /* Limit max width for large screens */
     margin: auto;
     padding: 10px;
     background: #fff;
     border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    z-index: 20;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Picture Styles */
 .pic1, .pic2 {
-    width: 95%; /* Make images responsive */
+    width: 100%; /* Full width responsiveness */
     height: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    border: 3px #fff solid;
-    margin-top: 60px; /* Adjust for better spacing */
+    margin-top: 60px;
 }
 
 /* Responsive Media Queries */
 @media (max-width: 768px) {
     nav {
         flex-direction: column; /* Stack nav items on small screens */
+        height: auto; /* Adjust height for vertical stacking */
     }
 
-    p {
-        font-size: 14px; /* Reduced font size for readability */
-        margin-right: 20px;
-        margin-left: 20px;
-        text-align: justify;
+    h1, h2, h3 {
+        font-size: 1.5rem; /* Adjust font sizes */
     }
 
     .btnHome, .btn1, .btn2, .btn3, .btn4, .btn5, .btn6 {
-        font-size: 12px; /* Responsive button text */
+        font-size: 14px; /* Adjust button text size */
+    }
+
+    p {
+        font-size: 14px; /* Reduce font size for readability */
+        margin: 20px; /* Give some breathing room */
+        text-align: justify;
     }
 }
 
 /* Message */
 .message {
     display: none; /* Hidden by default */
-    position: fixed; /* Position the dropdown */
-    Background-color: #fff;
-    width: 200px; /* Minimum width */
-    box-shadow: 4px 8px 16px 4px rgba(0,0,0,0.2); /* Add shadow */
-    left: 210px;
-    transform: translateX(-50%);
+    position: fixed;
+    background-color: #fff;
+    width: 80%; /* Responsive width */
+    max-width: 300px; /* Limit max width for larger screens */
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
+    left: 10%; /* Center the message */
     animation: flow 1.0s forwards;
-    top: 160px;
-    z-index: 50;
-     padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-     padding-bottom: 20px;
+    padding: 20px;
     border-radius: 5px;
 }
 
-  input {
-      padding: 10px;
-      border: 1px solid orange;
-      border-radius: 3px;
-       z-index: 50;
-      width: 80%;
-  }
+input {
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 3px;
+    width: 80%; /* Responsive input width */
+}
 
 .send {
     border-radius: 5px;
     cursor: pointer;
 }
 
-  .send:hover {
+.send:hover {
     background-color: orange;
-  }
-
-
-
-
+}
