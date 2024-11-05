@@ -175,23 +175,6 @@ h3 {
     }
 }
 
-form {
-    display: none; /* Hidden by default */
-    position: fixed; /* Position the dropdown */
-    Background-color: #fff;
-    min-width: 170px; /* Minimum width */
-    box-shadow: 4px 8px 16px 4px rgba(0,0,0,0.2); /* Add shadow */
-    left: 300px;
-    transform: translateX(-50%);
-    animation: flow 1.0s forwards;
-    top: 180px;
-    z-index: 50;
-     padding-top: 50px;
-    padding-left: 20px;
-     padding-bottom: 20px;
-    border-radius: 5px;
-}
-
 /* Dropdown Content */
 .message {
     display: none; /* Hidden by default */
