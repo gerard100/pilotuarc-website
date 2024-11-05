@@ -175,12 +175,11 @@ h3 {
     }
 }
 
-/* Dropdown Content */
-.message {
+form {
     display: none; /* Hidden by default */
     position: fixed; /* Position the dropdown */
     Background-color: #fff;
-    min-width: 140px; /* Minimum width */
+    min-width: 170px; /* Minimum width */
     box-shadow: 4px 8px 16px 4px rgba(0,0,0,0.2); /* Add shadow */
     left: 300px;
     transform: translateX(-50%);
@@ -193,18 +192,21 @@ h3 {
     border-radius: 5px;
 }
 
-.dropdown-{
-    color: black; /* Text color */
-    padding-top: 20px; /* Padding */
-    padding-left: 16px;
-    text-decoration: none; /* No underlines */
-    display: block; /* Make links block elements */
-    z-index: 20;
-    color: #000;
-    background-color: #f9f9f9;
-    position: fixed;
-    width: 160px;
-    height: 40px;
+/* Dropdown Content */
+.message {
+    display: none; /* Hidden by default */
+    position: fixed; /* Position the dropdown */
+    Background-color: #fff;
+    min-width: 140px; /* Minimum width */
+    box-shadow: 4px 8px 16px 4px rgba(0,0,0,0.2); /* Add shadow */
+    left: 250px;
+    transform: translateX(-50%);
+    animation: flow 1.0s forwards;
+    top: 180px;
+    z-index: 50;
+     padding-top: 50px;
+    padding-left: 20px;
+     padding-bottom: 20px;
     border-radius: 5px;
 }
 
