@@ -186,17 +186,17 @@ h3 {
     transform: translateX(-50%);
     animation: flow 1.0s forwards;
     top: 180px;
-    z-index: 50px;
+    z-index: 50;
      padding-top: 40px;
     border-radius: 5px;
 }
 
   input {
       width: 60%;
-      padding: 20px;
+      padding: 10px;
       border: 1px solid orange;
       border-radius: 3px;
-       z-index: 50px;
+       z-index: 50;
   }
 
 
