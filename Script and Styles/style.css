@@ -62,7 +62,7 @@ nav {
 /* Dropdown Content */
 .dropdown-content {
     display: none; /* Hidden by default */
-    position: absolute; /* Position the dropdown */
+    position: fixed; /* Position the dropdown */
  /* Background color */
     min-width: 160px; /* Minimum width */
     box-shadow: 4px 8px 16px 4px rgba(0,0,0,0.2); /* Add shadow */
@@ -82,7 +82,7 @@ nav {
     z-index: 20;
     color: #000;
     background-color: #f9f9f9;
-    position: absolute;
+    position: fixed;
     width: 160px;
     height: 40px;
     border-radius: 5px;
