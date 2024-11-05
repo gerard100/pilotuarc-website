@@ -14,7 +14,7 @@ nav {
     justify-content: space-between;
     background: rgb(62, 59, 59);
     border-bottom: #fff 2px solid;
-    padding: 5rem 5rem;
+    padding: 5px 5%;
     position: fixed; /* Change to fixed for better responsive behavior */
     top: 0;
     z-index: 5;
