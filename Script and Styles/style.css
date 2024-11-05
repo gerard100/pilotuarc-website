@@ -32,9 +32,9 @@ nav {
 
 /* This is the menu option icon */
 .icon {
-    width: 9vw; /* Responsive size */
+    width: 12vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
-    top: 150px;
+    top: 570px;
     left: 50px;
     border-radius: 50%;
     cursor: pointer;
