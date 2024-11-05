@@ -30,8 +30,8 @@ nav {
     z-index: 6;
 }
 
-/* Icon */
-.menu {
+/* This is the menu option icon */
+.icon {
     width: 9vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
     top: 150px;
