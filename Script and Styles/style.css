@@ -195,11 +195,11 @@ h3 {
 }
 
   input {
-      width: 60%;
       padding: 10px;
       border: 1px solid orange;
       border-radius: 3px;
        z-index: 50;
+      width: 80%;
   }
 
 .send {
