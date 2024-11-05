@@ -24,7 +24,7 @@ nav {
 .adventistlogo {
     width: 5vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
-    top: 16px;
+    top: 20px;
     left: 15%;
     position: fixed; 
     z-index: 6;
@@ -34,7 +34,7 @@ nav {
 .icon {
     width: 6vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
-    top: 16px;
+    top: 20px;
     right: 15%;
     border-radius: 50%;
     cursor: pointer;
@@ -49,7 +49,7 @@ nav {
 .email {
     width: 6vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
-    top: 16px;
+    top: 20px;
     right: 50%;
     border-radius: 50%;
     border-color: orange 2px solid;
