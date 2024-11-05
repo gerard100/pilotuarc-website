@@ -25,17 +25,17 @@ nav {
     width: 5vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
     top: 16px;
-    left: 15px;
+    right: 15px;
     position: fixed; 
     z-index: 6;
 }
 
 /* This is the menu option icon */
 .icon {
-    width: 12vw; /* Responsive size */
+    width: 6vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
     top: 600px;
-    left: 50px;
+    right: 25px;
     border-radius: 50%;
     cursor: pointer;
     position: fixed; 
@@ -47,10 +47,10 @@ nav {
 
 /* message buttom */
 .email {
-    width: 12vw; /* Responsive size */
+    width: 6vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
-    top: 550px;
-    left: 50px;
+    top: 16px;
+    right: 35px;
     border-radius: 50%;
     cursor: pointer;
     position: fixed; 
@@ -71,7 +71,7 @@ nav {
     left: 100px;
     transform: translateX(-50%);
     animation: flow 1.0s forwards;
-    top: 150px;
+    top: 16px;
 }
 
 .dropdown-content a {
@@ -109,12 +109,12 @@ nav {
 
 h1 {
     color: orange;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     margin: 5px 0;
     position: fixed;
     z-index: 6;
-    top: 15px;
+    top: 20px;
 }
 
 h2 {
