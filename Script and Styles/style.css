@@ -57,7 +57,7 @@ nav {
     z-index: 6;
 }
 .email:hover {
-    background-color: rgb(62, 59, 59);
+    border: orange 2px solid;
 }
 
 /* Dropdown Content */
@@ -187,10 +187,10 @@ h3 {
     animation: flow 1.0s forwards;
     top: 160px;
     z-index: 50;
-     padding-top: 20px;
+    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-     padding-bottom: 20px;
+    padding-bottom: 20px;
     border-radius: 5px;
 }
 
