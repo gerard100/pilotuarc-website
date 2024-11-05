@@ -213,6 +213,11 @@ td, th {
     text-align: left;
 }
 
+.table-container {
+    overflow-x: overflow;
+    -webkit-overlfow-scrolling: touch;
+}
+
 
 
 
