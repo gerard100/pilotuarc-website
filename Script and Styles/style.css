@@ -34,7 +34,7 @@ nav {
 .icon {
     width: 6vw; /* Responsive size */
     height: auto; /* Maintain aspect ratio */
-    top: 600px;
+    top: 16px;
     right: 25px;
     border-radius: 50%;
     cursor: pointer;
