@@ -118,10 +118,10 @@ h1 {
 
 h2 {
     color: orange;
-    font-size: 9px;
-    left: 18%;
-    position: fixed;
+    font-size: 2rem;
     text-align: center;
+    margin: 5px 0;
+    position: fixed;
     z-index: 6;
     top: 25px;
 }
