@@ -116,6 +116,14 @@ h1 {
     top: 25px;
 }
 
+h3 {
+    color: orange;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
 /* Heading Styles */
 h3 {
     color: orange;
