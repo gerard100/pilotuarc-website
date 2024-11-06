@@ -179,10 +179,10 @@ h2 {
     animation: flow 1.0s forwards;
     top: 160px;
     z-index: 50;
-     padding-top: 20px;
+    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-     padding-bottom: 20px;
+    padding-bottom: 20px;
     border-radius: 5px;
 }
 
@@ -202,22 +202,6 @@ h2 {
   .send:hover {
     background-color: orange;
   }
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-td, th {
-    border: 1px solid black;
-    padding: 8px;
-    padding-left: 4px;
-    text-align: left;
-}
-
-.table-container {
-    overflow-x: overflow;
-    -webkit-overlfow-scrolling: touch;
-}
 
 
 
