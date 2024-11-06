@@ -207,13 +207,13 @@ h2 {
 
 
 table {
-    width: 100;
+    width: 100%;
     border-collapse: collapse;
 }
 
 .table-container {
     overflow-x: auto;
-    -webit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
 }
 
 th, td {
