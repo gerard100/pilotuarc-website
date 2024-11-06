@@ -150,6 +150,7 @@ h2 {
       position: absolute;
       padding-left: 60px;
   }
+
   p{
     color: orange;
     padding-left: 30px;
@@ -205,5 +206,23 @@ h2 {
   }
 
 
+table {
+    width: 100:
+    border-collapse: collapse;
+}
 
+.table-container {
+    overflow-x: auto;
+    -webit-overflow-scrolling: touch;
+}
+
+th, td {
+    padding: 10px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+th {
+    color: orange;
+}
 
