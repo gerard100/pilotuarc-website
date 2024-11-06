@@ -16,25 +16,25 @@ document.addEventListener("DOMContentLoaded", () => {
             window.location.href = 'index.html';
             });
 
-            // Admin to Home & Display Home        
+            // Project to Admin & Display Admin        
             adminButton.addEventListener("click", () => {
                 projDiv.style.display = "none";
                 window.location.href = 'admin.html';
                 });
 
-            // Admin to Home & Display Home        
+            // Projectto Home & Display Home        
             infraButton.addEventListener("click", () => {
                 projDiv.style.display = "none";
                 window.location.href = 'infra.html';
                 });
 
-            // Admin to Home & Display Home        
+            // Project to Program & Display Program        
             progButton.addEventListener("click", () => {
                 projDiv.style.display = "none";
                 window.location.href = 'prog.html';
                 });
 
-            // Admin to Home & Display Home        
+            // Project to App & Display App        
             appButton.addEventListener("click", () => {
                 projDiv.style.display = "none";
                 window.location.href = 'app.html';
