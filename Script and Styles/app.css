@@ -131,7 +131,7 @@ h2 {
 
 
 form{
-    top: 600px;
+    top: 800px;
     background: #fff;
     width: 80%;
     padding: 20px;
@@ -140,7 +140,7 @@ form{
 
 /* Container Style */
 .container {
-    top: 500px;
+    top: 600px;
     width: 90%; /* Responsive container width */
     margin: auto;
     padding: 10px;
