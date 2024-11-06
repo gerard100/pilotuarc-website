@@ -219,7 +219,7 @@ table {
 th, td {
     padding: 10px;
     padding-left: 5px;
-    border: 1px solid #000;
+    border: 1px solid rgb(62, 59, 59);
     text-align: left;
 }
 
