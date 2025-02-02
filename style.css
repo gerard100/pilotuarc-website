@@ -125,7 +125,7 @@ h1 .open, h2 .open {
 /* Showcase */
 #showcase {
   min-height: 400px;
-  background:url('./img/dorm1.jpg') no-repeat;
+  background:url('dorm1.jpg') no-repeat;
   background-position: center;
   background-size: cover;
   text-align:left;
@@ -146,7 +146,7 @@ h1 .open, h2 .open {
 /* Display */
 #display{
   min-height: 400px;
-  background:url('./img/pasa.jpg') no-repeat;
+  background:url('pasa.jpg') no-repeat;
   background-position: center;
   background-size: cover;
   text-align:left;
@@ -167,7 +167,7 @@ h1 .open, h2 .open {
 /* View */
 #view{
   min-height: 400px;
-  background:url('./img/hall.jpg') no-repeat;
+  background:url('hall.jpg') no-repeat;
   background-position: center;
   background-size: cover;
   text-align:left;
