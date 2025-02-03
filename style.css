@@ -267,11 +267,16 @@ footer {
   #newsletter h1,
   #newsletter form,
   #boxes .box,
-  article#main-col,
   aside#sidebar{
     float:none;
     text-align: center;
     width:100%;
+  }
+
+  article#main-col {
+    float: none;
+    text-align: justify;
+    width: 100%;
   }
 
   header{
