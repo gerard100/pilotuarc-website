@@ -78,7 +78,6 @@ header li{
   float:left;
   display:inline;
   padding: 0 20px 0 20px;
-  text-align: left;
 }
 
 header #branding{
@@ -216,7 +215,7 @@ h1 .open, h2 .open {
 
 #boxes .box{
   float:right;
-  text-align: justify;
+  text-align: center;
   width:30%;
   padding:10px;
 }
