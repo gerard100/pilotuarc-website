@@ -149,7 +149,7 @@ h1 .open, h2 .open {
   background:url('pasa.jpg') no-repeat;
   background-position: center;
   background-size: cover;
-  text-align:left;
+  text-align: justify;
   color: #ffffff;
 }
 
@@ -170,7 +170,7 @@ h1 .open, h2 .open {
   background:url('hall.jpg') no-repeat;
   background-position: center;
   background-size: cover;
-  text-align:left;
+  text-align: justify;
   color: #ffffff;
 }
 
@@ -270,7 +270,7 @@ footer {
   article#main-col,
   aside#sidebar{
     float:none;
-    text-align:center;
+    text-align: justify;
     width:100%;
   }
 
