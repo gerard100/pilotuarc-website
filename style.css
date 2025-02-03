@@ -128,7 +128,7 @@ h1 .open, h2 .open {
   background:url('./dorm1.jpg') no-repeat;
   background-position: center;
   background-size: cover;
-  text-align:left;
+  text-align: justify;
   color: #ffffff;
 }
 
