@@ -82,7 +82,7 @@ header li{
 }
 
 header #branding{
-  float: right;
+  float: left;
 }
 
 header #branding h1{
