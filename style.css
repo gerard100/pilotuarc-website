@@ -22,7 +22,7 @@ body{
   border: 1px solid #ffffff;
   margin: auto;
   max-width: 80%;
-  height: auto;
+  max-height: 60%;
   overflow:hidden;
   font-size: 10px;
 }
