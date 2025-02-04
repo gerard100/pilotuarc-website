@@ -20,7 +20,10 @@ body{
   background: rgb(0, 0, 0, 0.6);
   border-radius: 10px;
   border: 1px solid #ffffff;
-  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  margin-left: 30%;
+margin-right: 30%;
   max-width: 60%;
   max-height: 40%;
   overflow:hidden;
