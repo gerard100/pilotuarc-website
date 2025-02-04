@@ -224,6 +224,10 @@ h1 .open, h2 .open {
   width:200px;
 }
 
+.box .a {
+  float: center;
+}
+
 /* Sidebar */
 aside#sidebar{
   float:right;
