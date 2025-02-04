@@ -60,6 +60,7 @@ ul{
 
 /* Header **/
 header{
+  float: left;
   background:rgb(62, 59, 59);;
   color:#ffffff;
   padding-top:30px;
@@ -222,10 +223,6 @@ h1 .open, h2 .open {
 
 #boxes .box img{
   width:200px;
-}
-
-.box .a {
-  float: center;
 }
 
 /* Sidebar */
