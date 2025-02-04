@@ -273,6 +273,9 @@ footer {
     text-align: center;
     width:100%;
   }
+  .container #branding {
+    left: 25%;
+  }
 
   article#main-col {
     float: none;
