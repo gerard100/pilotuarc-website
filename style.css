@@ -273,7 +273,8 @@ footer {
     text-align: center;
     width:100%;
   }
-  .container #branding h1 {
+  
+   #branding h1 {
     left: 25%;
   }
 
