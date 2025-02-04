@@ -10,7 +10,7 @@ body{
   width:80%;
   margin:auto;
   overflow:hidden;
-  font: 12px;
+  font-size: 12px;
 }
 
 .textbox {
@@ -23,7 +23,7 @@ body{
   margin: auto;
   max-width: 40%;
   overflow:hidden;
-  font: 10px;
+  font-size: 10px;
 }
 
 .adventistlogo {
