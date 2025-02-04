@@ -21,7 +21,7 @@ body{
   border-radius: 10px;
   border: 1px solid #ffffff;
   margin: auto;
-  max-width:80%;
+  min-width:80%;
   overflow:hidden;
   font: 12px;
 }
