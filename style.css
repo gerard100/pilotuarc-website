@@ -5,11 +5,6 @@ body{
   background-color:#f4f4f4;
 }
 
-h3{
-  color: orange;
-  border-bottom: #fff;
-}
-
 /* Global */
 .container{
   width:80%;
