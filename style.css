@@ -338,3 +338,7 @@ footer {
      width: 1000px;
      z-index: 20;
  }
+
+.note{
+  font-size: 7px;
+}
