@@ -148,6 +148,13 @@ h1 .open, h2 .open {
   z-index: -1;
 }
 
+#showcase h2{
+  margin-top:300px;
+  font-size:20px;
+  margin-bottom:10px;
+  z-index: -1;
+}
+
 #showcase p{
   font-size: 13px;
 }
