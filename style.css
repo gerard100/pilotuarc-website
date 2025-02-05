@@ -17,9 +17,9 @@ body{
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 10px;
-  background: rgb(0, 0, 0, 0.6);
+  background: rgb(255, 255, 255, 0.6);
   border-radius: 10px;
-  border: 1px solid #ffffff;
+  border: 1px solid orange;
   margin: auto;
   max-width: 60%;
   max-height: 30%;
@@ -155,7 +155,7 @@ h1 .open, h2 .open {
   background-position: center;
   background-size: cover;
   text-align: left;
-  color: #ffffff;
+  color: #000;
 }
 
 #display h1{
@@ -176,7 +176,7 @@ h1 .open, h2 .open {
   background-position: center;
   background-size: cover;
   text-align: left;
-  color: #ffffff;
+  color: #000;
 }
 
 #view h1{
