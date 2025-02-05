@@ -5,6 +5,10 @@ body{
   background-color:#f4f4f4;
 }
 
+form {
+  background-color: 000;
+}
+
 /* Global */
 .container{
   width:80%;
