@@ -17,9 +17,9 @@ body{
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 10px;
-  background: rgb(255, 255, 255, 0.8);
+  background: rgb(102, 102, 102);
   border-radius: 10px;
-  border: 1px solid orange;
+  border: 1px solid #fff;
   margin: auto;
   max-width: 60%;
   max-height: 30%;
