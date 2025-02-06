@@ -340,5 +340,7 @@ footer{
   position: relative;
   line-height: 2.2rem;
   margin-bottom: 2rem;
+  background-color: (62, 59, 59);
+  margin-left: 20px;
 }
 
