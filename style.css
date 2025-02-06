@@ -333,6 +333,8 @@ ul#services li{
   }
  
 .picture {
+    height: 500px;
+    width: 500px;
     border: 1px solid orange;
     border-radius: 5px;
 }
