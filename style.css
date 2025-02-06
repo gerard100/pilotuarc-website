@@ -203,7 +203,8 @@ h1 .open, h2 .open {
   padding:15px;
   color:#ffffff;
   background: rgb(62, 59, 59);
-  border-bottom:orange 3px solid;
+  border-bottom:orange 2px solid;
+  border-top:orange 2px solid;
 }
 #newsletter h1{
   float:left;
