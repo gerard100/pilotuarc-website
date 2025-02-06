@@ -332,8 +332,8 @@ ul#services li{
       border-radius: 3px;
   }
  
- .about {
-     width: 60px;
-     height: 50px;
- }
+.picture {
+    border: 1px solid orange;
+    border-radius: 5px;
+}
 
