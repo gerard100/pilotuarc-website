@@ -213,7 +213,7 @@ h1 .open, h2 .open {
 }
 
 #newsletter form {
-  float:right;
+  float: left;
   margin-top:15px;
 }
 
