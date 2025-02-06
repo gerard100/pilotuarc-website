@@ -346,7 +346,6 @@ footer {
      z-index: 20;
  }
 
-.note{
-  font-size: 7px;
-  margin-left: 5px;
+form{
+  background-color: green;
 }
