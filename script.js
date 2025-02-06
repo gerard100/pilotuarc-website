@@ -1,7 +1,7 @@
 const images = [
-    'url("img-1.jpg")',
-    'url("img-2.jpg")',
-    'url("/img-3.jpg")',
+    'url("./dorm-1.jpg")',
+    'url("./project.jpg")',
+    'url("./girls.jpg")',
     // Add more images as needed
 ];
 
