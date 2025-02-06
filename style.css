@@ -264,14 +264,6 @@ ul#services li{
   background:#e6e6e6;
 }
 
-footer {
-  padding:20px;
-  margin-top:20px;
-  color:#ffffff;
-  background-color:rgb(62, 59, 59);
-  text-align: left;
-}
-
 /* Media Queries */
 @media(max-width: 768px){
   header #branding,
