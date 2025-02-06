@@ -130,11 +130,11 @@ h1 .open, h2 .open {
 
 /* Showcase */
 #showcase {
-  min-height: 300px;
+  min-height: 250px;
   background:url('./dorm1.jpg') no-repeat;
   background-position: center;
   background-size: cover;
-  text-align: justify;
+  text-align: left;
   color: #ffffff;
 }
 
