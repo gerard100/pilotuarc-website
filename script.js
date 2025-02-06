@@ -1,5 +1,5 @@
 const images = [
-    'url("./dorm-1.jpg")',
+    'url("./dorm1.jpg")',
     'url("./project.jpg")',
     'url("./girls.jpg")',
     // Add more images as needed
