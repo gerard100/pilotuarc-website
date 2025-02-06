@@ -118,6 +118,10 @@ h1 .close, h2 .close {
   color: red;
   font-weight:bold;
 }
+h2 .white{
+color: #fff;
+}
+  
 /*This style of codes highlights headers to green*/
 h1 .open, h2 .open {
   color: #2bff2e;
