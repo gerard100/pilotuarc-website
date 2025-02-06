@@ -343,3 +343,9 @@ footer {
      width: 1000px;
      z-index: 20;
  }
+
+footer{
+  position: relative;
+  line-height: 2.2rem;
+  margin-bottom: 2rem;
+}
