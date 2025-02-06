@@ -102,11 +102,11 @@ header nav{
   margin-top:10px;
 }
 
-h3 {
-  margin: 0;
+h4 {
   padding: 0;
   border-bottom: 0px;
   float: left;
+  margin-left: 10px;
 }
 
 /*This style of codes highlights headers to orange*/
