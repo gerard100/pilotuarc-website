@@ -134,7 +134,7 @@ h1 .open, h2 .open {
   background:url('./dorm1.jpg') no-repeat;
   background-position: center;
   background-size: cover;
-  text-align: left;
+  text-align: justify;
   color: #ffffff;
 }
 
@@ -162,7 +162,7 @@ h1 .open, h2 .open {
   background:url('pasa.jpg') no-repeat;
   background-position: center;
   background-size: cover;
-  text-align: left;
+  text-align: justify;
   color: #000;
 }
 
@@ -183,7 +183,7 @@ h1 .open, h2 .open {
   background:url('hall.jpg') no-repeat;
   background-position: center;
   background-size: cover;
-  text-align: left;
+  text-align: justify;
   color: #000;
 }
 
@@ -253,7 +253,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 /* Main-col */
 article#main-col{
   float:left;
-  width:100%;
+  width:80%;
 }
 
 /* Services */
