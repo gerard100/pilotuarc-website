@@ -210,7 +210,8 @@ h1 .open, h2 .open {
 }
 
 #newsletter h2{
-  display: below;
+  list-style-type: none;
+  padding: 0;
 }
 
 #newsletter h1{
