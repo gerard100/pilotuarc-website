@@ -158,7 +158,7 @@ h1 .open, h2 .open {
 
 /* Display */
 #display{
-  min-height: 400px;
+  min-height: 250px;
   background:url('pasa.jpg') no-repeat;
   background-position: center;
   background-size: cover;
@@ -179,7 +179,7 @@ h1 .open, h2 .open {
 
 /* View */
 #view{
-  min-height: 400px;
+  min-height: 250px;
   background:url('hall.jpg') no-repeat;
   background-position: center;
   background-size: cover;
