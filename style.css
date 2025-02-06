@@ -103,7 +103,7 @@ header nav{
 }
 
 /*This style of codes highlights headers to orange*/
-header .highlight, header .current a, h1 .highlight, h2 .highlight, .current h3{
+header .highlight, header .current a, h1 .highlight, h2 .highlight, h3 .highlight, .current h3{
   color: orange;
   font-weight:bold;
 }
@@ -123,7 +123,7 @@ color: #fff;
 }
   
 /*This style of codes highlights headers to green*/
-h1 .open, h2 .open {
+h1 .open, h2 .open, h3 .open {
   color: #2bff2e;
   font-weight:bold;
 }
