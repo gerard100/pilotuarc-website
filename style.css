@@ -209,6 +209,10 @@ h1 .open, h2 .open {
   border-bottom:orange 3px solid;
 }
 
+#newsletter h2{
+  display: below;
+}
+
 #newsletter h1{
   float:left;
 }
