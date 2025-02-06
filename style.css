@@ -130,7 +130,7 @@ h1 .open, h2 .open {
 
 /* Showcase */
 #showcase {
-  mac-height: 1000px;
+  max-height: 250px;
   background:url('./dorm1.jpg') no-repeat;
   background-position: center;
   background-size: cover;
