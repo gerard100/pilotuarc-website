@@ -44,7 +44,7 @@ ul{
 
 h3{
   color: orange;
-  margin-left: 20px;
+  margin-left: 10px;
   float: left;
   left: 5%;
 }
@@ -100,13 +100,6 @@ header #branding h1{
 header nav{
   float:right;
   margin-top:10px;
-}
-
-h4 {
-  padding: 0;
-  border-bottom: 0px;
-  float: left;
-  margin-left: 10px;
 }
 
 /*This style of codes highlights headers to orange*/
